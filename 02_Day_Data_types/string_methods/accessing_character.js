@@ -10,3 +10,17 @@ console.log(lastLetter) // t
 let lastIndex = string.length - 1
 console.log(lastIndex) // 9
 console.log(string[lastIndex]) // t
+
+
+
+let array = [1, 2, 'monkey']
+console.log(array)
+
+let string2 = "JavaScript"
+
+console.log(string === string2)
+
+console.log(string)
+
+let age = 31
+console.log(typeof `${age}`)

@@ -18,3 +18,17 @@ const PI = 3.14              // geometrical constant
 let name = 'Asabeneh',     //name of a person
   job = 'teacher',
   live = 'Finland'
+
+let test // undefined
+log.console(test) // Uncaught ReferenceError
+
+let emptyValue = null // empty value
+log.console(emptyValue) // Uncaught Reference error, allocated memory slot
+
+console.log(typeof 'Asabeneh') // string
+console.log(typeof 5) // number
+console.log(typeof true) // boolean
+console.log(typeof null) // object type
+console.log(typeof undefined) // undefined
+// undefined == null = true
+
