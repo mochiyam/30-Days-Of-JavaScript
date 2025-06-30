@@ -6,4 +6,5 @@ function myFunction() {
   }
   const agree = confirm('Are you sure you that\'s your name? ')
   console.log(agree) 
+  // 123345 test
 }
